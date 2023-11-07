@@ -1,0 +1,50 @@
+1 ) Criar classes e controllers
+2 ) Criar Classe test do controller
+3 ) Usar anotações @Nested, @DisplayName e em seguida criar teste usando @Test
+	3.1 ) Criar package dto
+	3.2 ) Criar classes: NomeClassePostDTO, NomeClassePutDTO... 
+	3.3 ) Usar @JsonProperty("atributo") para definir propriedades de entradas das classes
+	3.4 ) Usar padrão Builder para criar testes:
+		3.4.1 ) nomeClassePostDTO =  NomeClassePostDTO.builder()
+						.atributoNecessario("")
+						.atributo2("")
+						.atributo3("")
+						.build();
+			String resultado = driver.perform(MockRequestBuilders.post(URL_TEMPLATE)
+				.contentType(MediaType.APPLICATION_JSON)			// Header
+				.content(objectMapper.writeValueAsString(nomeClassePostDTO)))	// Body
+				.andExpect(status().isCreated()) 				// Codigo 201
+				.andDo(print())
+				.andReturn().getResponse().getContentAsString();
+
+		
+			NomeClasse nomeClasseResultado = objectMapper.readValue(resultado, NomeClass.class);
+		3.4.2 ) Criar Assert:
+			
+			assertNotNull(nomeClasseResultado.getId());
+			assertTrue(nomeClasseResultado.getId() > 0);
+			assertNotNull(nomeClasseResultado.getAtributo1());
+			assertEquals(nomeClassePostDTO.getAtributoNecessario(), nomeClasseResultado.getAtributoNecessario())
+
+Criar:
+	Put
+	Patch
+	Delete
+	Get-one
+	Get-all
+
+Roteiro:
+
+1) Criar testes no Controller usando AAA Pattern
+2) Criação de Endpoints com seus métodos usando @XXXMapping
+    @XXXMapping
+    ResponseEntity<?> XXXObjeto() {
+        return ResponseEntity
+            .status(HttpStatus.//OK, CREATE, NoContent e por aí vai...)
+            .body(objetoXXXService.XXX())
+    }
+
+3) Criar Service, pois ainda não existe
+4) Criar interface
+5) Criar função no Repository
+6) Chorarrrrrrrrrrrr
