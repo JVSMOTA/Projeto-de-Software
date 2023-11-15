@@ -4,6 +4,20 @@
 
 Este repositório armazena meu progresso durante o curso desta disciplina no **semestre 23.1**. Ele lista apenas os trabalhos no estado final de entrega, excluindo os inúmeros commits feitos durante o progresso. Durante a jornada, foram inúmeras noites em claro na luta pela conclusão da disciplina.
 
+Abaixo, deixo registrado as notas obtidas de acordo com as Milestones. Lembre-se que algumas entregas foram feitas com 1 ou no máximo 2 USs sem terem sido feitas, mas que ainda assim fazia o projeto ser funcional.
+
+<div align="center">
+
+## Notas e Milestones
+| Nota | Milestone                         |
+|------|-----------------------------------|
+| 8.6  | <ul><li> -[x] Entrega 1</li></ul> |
+| 7.0  | <ul><li> -[x] Entrega 2</li></ul> |
+| 9.5  | <ul><li> -[x] Entrega 3</li></ul> |
+| 9.0  | <ul><li> -[x] Entrega 4</li></ul> |
+
+</div>
+
 Recomendo, para aqueles que planejam usar este material como apoio, que não apenas **copiem** na sua máquina. A ideia da disciplina é proporcionar a experiência de um **programador júnior em Java usando o Spring Boot**. Você irá lidar com seu grupo e enfrentar diversas decisões de design do projeto. Portanto, use com prudência e lembre-se de que o plágio é apenas uma forma de enganar a si mesmo sobre seu real aprendizado.
 
 Indico que entrem em contato com seus monitores durante os primeiros laboratórios, quando tudo é mais fácil de ser aprendido e corrigido.
