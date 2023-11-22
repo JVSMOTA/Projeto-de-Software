@@ -1,5 +1,11 @@
 # Projeto de Software (PSoft)
 
+<div align="right">
+  
+[![HitCount](https://hits.dwyl.com/JVSMOTA/Projeto-de-Software.svg?style=flat-square)](http://hits.dwyl.com/JVSMOTA/Projeto-de-Software)
+
+</div>
+
 ## Sobre
 
 Este repositório armazena meu progresso durante o curso desta disciplina no **semestre 23.1**. Ele lista apenas os trabalhos no estado final de entrega, excluindo os inúmeros commits feitos durante o progresso. Durante a jornada, foram inúmeras noites em claro na luta pela conclusão da disciplina.
