@@ -2,7 +2,7 @@
 
 <div align="right">
   
-[![HitCount](https://hits.dwyl.com/JVSMOTA/Projeto-de-Software.svg?style=flat-square)](http://hits.dwyl.com/JVSMOTA/Projeto-de-Software)
+[![HitCount](https://hits.dwyl.com/JVSMOTA/ProjetoDeSoftware.svg?style=flat-square)](http://hits.dwyl.com/JVSMOTA/ProjetoDeSoftware)
 
 </div>
 
