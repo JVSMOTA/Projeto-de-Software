@@ -1,8 +1,8 @@
 # Projeto de Software (PSoft)
 
 <div align="right">
-  
-[![HitCount](https://hits.dwyl.com/JVSMOTA/ProjetoDeSoftware.svg?style=flat-square)](http://hits.dwyl.com/JVSMOTA/ProjetoDeSoftware)
+
+[![Hits](https://hits.sh/github.com/JVSMOTA/ProjetoDeSoftware.svg)](https://hits.sh/github.com/JVSMOTA/ProjetoDeSoftware/)  
 
 </div>
 
