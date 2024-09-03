@@ -12,6 +12,11 @@ sourceCompatibility = '17'
 compileJava.options.encoding = 'UTF-8'
 bootRun.systemProperties['file.encoding'] = 'UTF-8'
 
+java {
+	sourceCompatibility = JavaVersion.VERSION_17
+	targetCompatibility = JavaVersion.VERSION_17
+}
+
 configurations {
 	compileOnly {
 		extendsFrom annotationProcessor
